@@ -1,0 +1,19 @@
+@import '../constants/sizing';
+@import '../constants/colours.scss';
+@import '../components/movie.scss';
+
+.main-screen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 622px;
+    font-size: $main-form-font-size;
+    color: skyblue;
+    background-repeat: none;
+    background-size: cover;
+    .current-time{
+        color: $main-clock-colour;
+    }
+}

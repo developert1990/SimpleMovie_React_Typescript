@@ -1,0 +1,105 @@
+
+.board-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-from{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.search-input{
+    font-size:23px;
+}
+
+.search-button{
+    width: 60px;
+    font-size: 15px;
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    outline: none;
+    border: 0;
+    padding: 6px;
+    border-radius: 10px;
+    cursor: pointer;
+}   
+
+.add-button{
+    background-color: rgb(57, 202, 20);
+    font-size: 15px;
+    width: 60px;
+    border: 0;
+    padding: 6px;
+    border-radius: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.show-allList{
+    background-color: rgb(236, 89, 31);
+    font-size: 15px;
+    width: 100px;
+    border: 0;
+    padding: 6px;
+    border-radius: 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+.titles{
+    display: flex;
+    justify-content: space-between;
+    width: 600px;
+}
+
+.titles h3{
+    font-size: 40px;
+}
+
+.title-button{
+    width: 200px;
+    background-color: white;
+    border-collapse: collapse;
+    padding: 10px;
+    box-shadow: 
+    2px 0 0 0 #888, 
+    0 2px 0 0 #888, 
+    2px 2px 0 0 #888,
+    2px 0 0 0 #888 inset, 
+    0 2px 0 0 #888 inset;
+    cursor: pointer;
+}
+
+.title-button:hover{
+    background-color: rgb(245, 228, 0);
+}
+
+.before-select{
+    font-size:25px;
+}
+
+.result{
+    font-size:25px;
+}
+
+.edit-button{
+    text-decoration: none;
+    background-color: gold;
+    padding: 5px;
+    border-radius: 10px;
+    width: 30px;
+    margin-top: 5px;
+}
+
+.edit-link{
+    text-decoration: none;
+    color: black;
+}

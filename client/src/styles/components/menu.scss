@@ -1,0 +1,45 @@
+@import '../mixins';
+@import '../constants/colours';
+@import '../constants/sizing';
+
+.navbar{
+  font-family: 'Red Rose', cursive;
+  display: flex;
+  justify-content: space-between;
+  background-color: $nav-background-colour;
+  color: $nav-font-colour;
+
+  @include mobile-view {
+    background-color: red;
+  }
+
+  .link{
+    text-decoration: none;
+    color: $nav-font-colour;
+  }
+  .navbar-logo-title{
+    display: flex;
+    margin: 20px;
+  }
+  .navbar-logo-title i{
+    margin-right: 15px;
+    font-size: $nav-bar-logo-font-size;
+  }
+  
+  .navbar-logo-title h2{
+    font-size: $nav-bar-logo-font-size;
+  }
+  
+  .navbar-menu ul{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+  }
+  .navbar-menu ul li{
+    list-style: none;
+    cursor: pointer;
+    margin: 15px;
+    font-size: 30px;
+  }
+
+}

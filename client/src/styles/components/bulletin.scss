@@ -1,0 +1,61 @@
+.add-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    font-size: 40px;
+
+}
+.add-form label{
+    font-size: 20px;
+}
+.add-form input{
+    display: block;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.submit-button{
+    background-color: green;
+    color: white;
+    border: 0;
+    padding: 7px;
+    border-radius: 10px;
+    outline-style: none;
+    margin-bottom: 10px;
+}
+.submit-button:hover{
+    background-color: wheat;
+    cursor: pointer;
+}
+
+.list{
+    text-decoration: none;
+    font-size:20px;
+    background-color: coral;
+    
+    border-radius: 10px;
+    color: white;
+    padding: 7px;
+}
+.list:hover{
+    background-color: rgb(243, 179, 84);
+}
+
+// success message
+.success-msg h3{
+    font-size: 25px;
+}
+
+.success-msg button{
+    background-color: red;
+    padding: 4px;
+    border: 0;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    width: 60px;
+    margin-top: 5px;
+}
